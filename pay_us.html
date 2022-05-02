@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pay Us</title>
+    <link rel="stylesheet" href="./pay/pay_us.css">
+    <link rel="stylesheet" href="./style/font.css">
+    <script defer src="pay-us.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <li class="item dark"><img src="./media/sun-regular.svg" alt="a333" width="15px" height="15px" id="dark" title="For dark mode"></li>
+        <h1>Confirm Your Payment</h1>
+        <div class="first-row">
+            <form>
+            <div class="owner">
+                <label>Owner</label>
+                <div class="input-field">
+                    <input type="text" required placeholder="Username" autofocus name="id" /> 
+                </div>
+            </div>
+            <div class="cvv">
+                <label>CVV</label>
+                <div class="input-field">
+                    <input type="password"  required placeholder="CVV" onkeypress="IN(event)" minlength="8" maxlength="32" name="pass" title="Please enter your Password from 8 to 32 charcter" />
+
+                    <script>
+
+                        function ID(evt){
+
+                        var char = string.fromCharCode(evt.which);
+                        if(!(/[0-9]/.test(ch))){
+                            evt.preventDefault()
+                        }
+
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <label>Card Number</label>
+                <div class="input-field">
+                    <input type="number" required placeholder="card number" name="cn" />
+                </div>
+            </div>
+            <div class="selection">
+                <div class="data">
+                    <header>
+                        <label>Date</label>
+                    </header>
+                    <select name="months" id="months">
+                        <option value="jan">Jan</option>
+                        <option value="feb">Feb</option>
+                        <option value="mar">Mar</option>
+                        <option value="apr">Apr</option>
+                        <option value="may">May</option>
+                        <option value="jun">Jun</option>
+                        <option value="jul">Jul</option>
+                        <option value="aug">Aug</option>
+                        <option value="sep">Sep</option>
+                        <option value="oct">Oct</option>
+                        <option value="nov">Nov</option>
+                        <option value="dec">Dec</option>
+                    </select>
+                    <select name="years" id="years">
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <img src="./pay/visa.png" alt="" width="70px" class="b">
+                    <img src="./pay/Mastercard.png" alt="" width="70px">
+                    <img src="./pay/meeza.jpg" alt="" width="70px" class="b">
+                </div>
+            </div>
+        </div>
+        <button type="button" value="button" onclick="MF()">CONFIRM</button>
+                <script>
+            function MF(){
+                alert("success process")
+            }
+        </script>
+                </form>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>

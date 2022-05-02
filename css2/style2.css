@@ -1,0 +1,300 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.bar {
+    height: 80px;
+    width: 100%;
+    background-color: beige;
+    margin: 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .bar {
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column !important;
+    }
+}
+
+.name {
+    font-size: 32PX;
+    font-family: 'poppins';
+    color: rgb(39, 105, 39);
+
+}
+
+samp {
+    color: rgb(179, 33, 33);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: underline;
+
+}
+
+nav ul li a:hover {
+    color: rgb(42, 165, 65) !important;
+    transition: .3;
+
+}
+
+.button {
+    border: none;
+    background-color: brown;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+
+span {
+    color: white;
+}
+
+.background video {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.g {
+    border: 4px solid #ccc;
+    border-style: outset;
+    border-radius: 10%;
+
+}
+
+.g:hover {
+    transform: translate(0, -24px);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+.h {
+
+    border: 4px solid #ccc;
+    border-style: outset;
+    border-radius: 10%;
+}
+
+.h:hover {
+    transform: translate(0, -24px);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.j {
+    border: 4px solid #ccc;
+    border-style: outset;
+    border-radius: 10%;
+}
+
+.j:hover {
+    transform: translate(0, -24px);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.product1 {
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.product2 {
+    width: 30%;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.product3 {
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    height: outo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+@media screen and (max-width:1000px) {
+    .section {
+        flex-direction: column;
+    }
+}
+
+
+.logo {
+    text-align: center;
+}
+
+samp2 {
+    color: rgb(234, 36, 36);
+}
+
+.ask {
+    color: darkblue;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    font-family: 'poppins';
+    font-size: 30px;
+
+}
+
+.text {
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+span11 {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 25px;
+    color: rgb(5, 73, 34);
+
+}
+
+footer {
+    background-color: brown;
+}
+
+.mfooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+}
+
+.footer1 {
+    box-sizing: border-box;
+    justify-content: left;
+    margin: 50px;
+
+}
+
+.logo1 {
+    font-family: 'poppins';
+    font-size: 64px;
+    color: whitesmoke;
+}
+
+samp25 {
+    color: green;
+}
+
+.final {
+    box-sizing: border-box;
+    font-size: 32px;
+    margin: 100px;
+}
+
+.map {
+    margin: 5px;
+
+}
+
+@media screen and (max-width:1000px) {
+    .mfooter {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+.lol {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+
+.dark-theme{
+    background-color: black;
+}
+
+.dark-theme .bar {
+    background-color: blueviolet;
+}
+
+.dark-theme footer {
+    background-color: blueviolet;
+}
+
+.dark-theme .text {
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+    .vedio {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and(max-width:1000px) {
+    .bla {
+        width: 300;
+        height: 400;
+    }
+
+}

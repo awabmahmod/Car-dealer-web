@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="./sign/style.CSS">
+  <link rel="stylesheet" href="./style/font.css">
+  <title>Sign in form </title>
+</head>
+<body>
+  <div class="box">
+    <button id="dark"> change theme</button>
+    <h1> Login </h1>
+    <br>
+    <form method="post">
+      <div class="text">
+        <LABEl>User Name </LABEl>
+        <input autofocus type="text" id="name" required  >
+        <br>
+        <br>
+        <span></span>
+        <label> Password</label>
+        <input type="password" minlength="8" maxlength="10" id="password" required>
+
+      </div>
+      <br>
+      <div class="pass"> Forgot password ?</div>
+      <br>
+      <input type="submit" class="DO" id="do" value=" CONFORM" onclick=" validate()">
+      <br>
+      <div class="link">
+        new accout?
+        <a href="./new.html">sign up </a>
+      </div>
+
+
+    </form>
+
+  </div>
+  <script src="./sign/style.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

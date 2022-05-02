@@ -1,0 +1,298 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#flex {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-top: 3cm;
+    margin-left: 15cm;
+    width: 6cm;
+    border: 0.1cm solid rgb(103, 102, 102);
+    border-radius: 12%;
+    background-color: rgb(23, 8, 188);
+    color: whitesmoke;
+    padding: 2px;
+}
+
+#h {
+    background-color: rgb(23, 8, 188);
+    color: white;
+    width: 100%;
+    position: fixed;
+    padding: 20px 0;
+    margin: auto;
+    top: 0%;
+}
+
+#footer {
+    background-color: rgb(23, 8, 188);
+    color: white;
+    height: 3cm;
+    width: 100%;
+
+    bottom: 0%;
+}
+
+#b {
+    margin-left: 28cm;
+    height: 35px;
+
+    width: 120px;
+    border: 0.03cm solid rgb(23, 8, 188);
+}
+
+#img1 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+#i1 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+#img2 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+#i2 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+#img3 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+#i3 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#i1:hover,
+#i2:hover,
+#i3:hover {
+    padding: 20px;
+}
+
+a {
+    margin-top: 1.5cm;
+    color: whitesmoke;
+}
+
+option {
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+select {
+    color: #636262;
+    background-color: #efefef;
+}
+
+#button1 {
+    padding: 5px;
+    border-radius: 10%;
+    border: 0.1cm solid rgb(23, 8, 188);
+    color: whitesmoke;
+    background-color: rgb(23, 8, 188);
+}
+
+#button1:hover {
+    padding: 7px;
+    border-color: #636262;
+}
+
+.dark-theme {}
+
+.dark-theme html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.dark-theme body {
+    background-color: rgb(66, 63, 63);
+}
+
+.dark-theme #flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-theme h3 {
+    margin-top: 3cm;
+    margin-left: 15cm;
+    width: 6cm;
+    border: 0.1cm solid rgb(103, 102, 102);
+    border-radius: 12%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 2px;
+
+}
+
+.dark-theme #h {
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    padding: 20px 0;
+    margin: auto;
+    top: 0%;
+}
+
+.dark-theme #footer {
+    background-color: black;
+    color: white;
+    height: 3cm;
+    width: 100%;
+
+    bottom: 0%;
+}
+
+.dark-theme #b {
+    margin-left: 28cm;
+    height: 35px;
+
+    width: 120px;
+    border: 0.03cm solid black;
+}
+
+.dark-theme #img1 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+.dark-theme #i1 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+.dark-theme #img2 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+.dark-theme #i2 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+.dark-theme #img3 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+.dark-theme #i3 {
+    margin-top: 1.7cm;
+    margin-left: 8cm;
+    width: auto;
+    height: auto;
+    border: 0.1cm solid black;
+    border-radius: 10%;
+}
+
+.dark-theme #img1:hover,
+#img2:hover,
+#img3:hover,
+#i1:hover,
+#i2:hover,
+#i3:hover {
+    padding: 20px;
+}
+
+.dark-theme a {
+    margin-top: 1.5cm;
+    color: whitesmoke;
+}
+
+.dark-theme option {
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+.dark-theme select {
+    color: #636262;
+    background-color: #efefef;
+}
+
+.dark-theme #button1 {
+    padding: 5px;
+    border-radius: 10%;
+    border: 0.1cm solid black;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.dark-theme #button1:hover {
+    padding: 7px;
+    border-color: #636262;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}

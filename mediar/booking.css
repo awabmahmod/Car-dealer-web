@@ -1,0 +1,120 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+#button1{
+    color: black; background-color: aliceblue;   width: 15cm;
+ }
+ #button1:hover{
+     background-color: brown; color: aliceblue;
+ }
+ body{
+     background-color: whitesmoke;
+ }
+ #header{ align-items: center;
+     background-color: black;
+     width: 100%;
+     padding: 40px;
+     color: white;
+     position: fixed;
+     top: 0;
+     left: 0;
+ }
+ #footer{
+     background-color: black;
+     padding: 20px;
+     height: 2cm;width: 100%; bottom: 0;}
+ #flex{display: flex; color: white; 
+     flex-direction: row;
+       justify-content: space-between;}
+#cont{margin-left: 12cm;
+ display: flex;
+ flex-direction: column;
+ border: 0.1cm solid gray;
+ width: 15cm;
+ height: 10cm;
+
+}
+
+img{
+ width: 15cm;
+ height: 10cm;
+}
+#info {margin-left: 12cm; 
+    width: 15cm;
+ background-color: aliceblue;
+ border: 00.1cm solid black;
+}
+iframe{
+margin-left: 0cm;
+width:7cm;
+height: 4cm;
+border: 0.1cm solid black;
+}
+div{
+background-color: aliceblue;
+}
+
+
+
+
+
+
+.dark-theme{
+
+background-color: rgb(70, 70, 70);
+}
+
+.dark-theme #button1{
+    color: grey; background-color: black;   width: 15cm;
+ }
+ .dark-theme #button1:hover{
+     background-color: brown; color: aliceblue;
+ }
+ .dark-theme #header{ align-items: center;
+     background-color: black;
+     width: 100%;
+     padding: 40px;
+     color: blue;
+     position: fixed;
+     top: 0;
+     left: 0;
+ }
+ .dark-theme #footer{
+     background-color: black;
+     padding: 20px;
+     height: 2cm;width: 100%; bottom: 0;}
+     .dark-theme #flex{display: flex; color: black; 
+     flex-direction: row;
+       justify-content: space-between;}
+       .dark-theme #cont{
+ display: flex;
+ flex-direction: column;
+ border: 0.1cm solid black;
+ width: 15cm;
+ height: 10cm;
+}
+.dark-theme img{
+ width: 15cm;
+ height: 10cm;
+}
+.dark-theme #info {
+ background-color: grey;
+ border: 00.1cm solid black;
+}
+.dark-theme iframe{
+margin-left: 0cm;
+width:7cm;
+height: 4cm;
+border: 0.1cm solid black;
+}
+.dark-theme div{ color: whitesmoke;
+background-color: black;
+}
+
+@media screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 2) {#info{ width: 15cm; margin-left: 9cm;} #cont{margin-left: 9cm;}
+} 
+
+
