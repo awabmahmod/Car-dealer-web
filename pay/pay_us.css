@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dark-theme {
+  background-color: #191919;
+
+}
+
+label{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 750px;
+  height: 500px;
+  border: 1px solid;
+  background-color: #0aad77;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: space-around;
+}
+
+.cards img {
+  width: 100px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.first-row {
+  display: flex;
+}
+
+.owner {
+  width: 100%;
+  margin-right: 300px;
+}
+
+.input-field {
+  border: 1px solid blue;
+}
+
+.input-field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selection select {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: dodgerblue;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.cards img {
+  width: 100px;
+}
+
+.b {
+  border: 3px;
+  border-color: black;
+  border-radius: 10px;
+}

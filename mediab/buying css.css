@@ -1,0 +1,275 @@
+html {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    color: #181818;
+    text-transform: capitalize;
+
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    margin: 3px auto;
+    padding: 5px;
+    background-color: rgb(126, 13, 13);
+    color: whitesmoke;
+    width: 70%;
+    border: 1px solid #181818;
+    border-radius: 3%;
+}
+
+header {
+    color: #758083;
+    width: 40%;
+    background-color: whitesmoke;
+    padding: 30px;
+    display: flex;
+    border-color: aliceblue;
+}
+
+span.logo {
+    color: rgb(126, 13, 13);
+}
+
+.logoo {
+    font-weight: 600;
+    font-size: 4vh;
+    color: #0aad77;
+    width: inherit;
+    margin-right: 3vh;
+}
+
+header.heading {
+    font-size: xx-large;
+}
+
+div.content {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    width: 99%;
+    margin: 1px auto;
+    flex-wrap: wrap;
+    border: 5px solid #181818;
+    border-radius: 3%;
+}
+
+div.car {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border: 0.25px solid #181818;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 5%;
+    padding: 50px;
+    color: whitesmoke;
+}
+
+img.cars {
+    padding: 5px;
+    /* max-width: 450px;
+    max-height: 300px; */
+    border: 0.1px solid inherit;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    color: #ddd;
+}
+
+p.f {
+    display: flex;
+    font-size: large;
+    margin: 40px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+
+div.car:hover {
+    background-color: #181818;
+    border-color: aliceblue;
+    padding: 15px;
+    transition: 0.50s;
+    color: whitesmoke;
+}
+
+p.rentp {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: 16px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a.rent_btn,
+#dark {
+    align-self: center;
+    color: whitesmoke;
+    width: 30%;
+    text-decoration: none;
+    background-color: rgb(126, 13, 13);
+    margin: 3px auto;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8%;
+    border-color: rgb(126, 13, 13);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+#dark:hover {
+    background-color: #181818;
+
+}
+
+.dark-theme div.content {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    width: 99%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    border: 5px solid whitesmoke;
+    border-radius: 3%;
+}
+
+.dark-theme div.car {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border: 0.25px solid whitesmoke;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 5%;
+    padding: 50px;
+    color: #181818;
+}
+
+.dark-theme div.car:hover {
+    background-color: whitesmoke;
+    border-color: aliceblue;
+    padding: 15px;
+    transition: 0.50s;
+    color: #181818;
+}
+
+.dark-theme header {
+    color: #758083;
+    width: 100%;
+    background-color: #181818;
+    padding: 30px;
+    display: flex;
+    border-color: aliceblue;
+}
+
+@media (max-width:768px) {
+    header {}
+
+    div.content {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 5px;
+        width: 99%;
+        margin: 30px auto;
+        flex-wrap: wrap;
+        border: 5px solid #181818;
+        border-radius: 3%;
+
+    }
+
+    div.car {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        box-sizing: border-box;
+        border: 0.25px solid #181818;
+        width: 70%;
+        margin: 30px auto;
+        border-radius: 5%;
+        padding: 10px;
+        color: whitesmoke;
+    }
+
+    header {
+        color: #758083;
+        background-color: #f5f5f5;
+        justify-content: center;
+        padding: 30px;
+        display: flex;
+        border-color: aliceblue;
+
+    }
+
+    a.f,
+    h1.f {
+        font-size: small;
+    }
+}
+
+@media (max-width:768px) {
+    .dark-theme div.car {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+
+        display: flex;
+        box-sizing: border-box;
+        border: 0.25px solid whitesmoke;
+        width: 70%;
+        margin: 30px auto;
+        border-radius: 5%;
+        padding: 10px;
+        color: #181818;
+    }
+
+    .dark-theme div.content {
+        background-color: #181818;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 5px;
+        width: 99%;
+        margin: 30px auto;
+        flex-wrap: wrap;
+        border: 5px solid whitesmoke;
+        border-radius: 3%;
+
+    }
+}

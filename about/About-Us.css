@@ -1,0 +1,133 @@
+.dark-theme {
+    background-color: #191919 !important;
+  }
+  .dark-theme .about{
+    background-color: #191919 !important;
+    color: whitesmoke !important;
+  }
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+.about {
+  background-size: 100%;
+  background-color:whitesmoke;
+  padding: 70px 0;
+}
+
+.about img {
+  width: 500px;
+  height: 600px;
+  margin-top: 70px;
+}
+
+.about-text {
+  width: 500px;
+}
+
+.main {
+  width: 1150px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.about-text h1 {
+  font-weight: bold;
+  color: rgba(138, 11, 138, 0.8);
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h4 {
+  color: rgb(235, 177, 70);
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.about-text p {
+  color: rgba(138, 11, 138, 0.8);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+a img {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #b3023a;
+  color: #191919;
+  /* text-decoration: none; */
+  border: 2px solid transparent;
+  /* font-weight: bold; */
+  padding: 13px 15px;
+  border-radius: 30px;
+  transition: 0.4s;
+  margin-right: 10px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+a img:hover {
+  background: transparent;
+  border: 2px solid #770a2d;
+  cursor: pointer;
+}
+
+video {
+  width: 440px;
+  height: 500px;
+}
+
+h3 {
+  color: rgb(235, 177, 70);
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about img {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 800px) {
+  .about img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .about-text {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about img {
+    width: 300px;
+    height: 200px;
+  }
+}
