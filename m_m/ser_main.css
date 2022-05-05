@@ -27,8 +27,7 @@ input {
 
 .dark-theme {
   background-color: black !important;
-  color: antiquewhite !important;
-  border: #04AA6D !important;
+  color: #04AA6D !important;
 }
 
 nav {
@@ -224,7 +223,6 @@ input {
   align-items: center;
   font-size: 50px;
   font-weight: 600;
-  color: black;
   padding-top: 80px
 }
 
@@ -232,7 +230,6 @@ input {
   display: flex;
   text-align-last: center;
   height: 65vh;
-  background: whitesmoke;
   padding-top: 5vh;
 }
 
@@ -240,7 +237,6 @@ input {
   display: flex;
   text-align: center;
   height: 65vh;
-  background: whitesmoke;
   padding-top: 0;
   margin-top: 0;
 }
