@@ -5,7 +5,7 @@ function validate() {
         window.open("../profile.html");
     }
     else if (username == localStorage.getItem("name1") && Password == localStorage.getItem("pass1")) {
-        window.open("../profile2.html");
+        window.open('profile2.html');
 
     }
     else {
