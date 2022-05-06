@@ -17,7 +17,7 @@ function validate() {
     localStorage.setItem("name1", name);
     localStorage.setItem("phone1", phone);
     localStorage.setItem("pass1", pass);
-    window.open("../profile2.html");
+    window.open('profile2.html');
     }
 }
 document.getElementById("emailv").innerHTML = localStorage.getItem("email1");
