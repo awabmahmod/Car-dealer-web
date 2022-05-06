@@ -13,33 +13,34 @@
         <form>
             <div class="text">
                 <label>First name</label>
-            <input autofocus type="text"required>
+            <input autofocus type="text"required id="first" value="">
             <br>
             <label>Second name</label>
-            <input type="text"required>
+            <input type="text"required id="second" value="">
             <br>
             <label>Email</label>
-            <input type="email" placeholder="" required>
+            <input type="email" placeholder="" required id="email" value="">
             <br>
             <label>Password</label>
-            <input type="password" minlength="8" maxlength="10" required >
+            <input type="password" minlength="8" maxlength="10" required id="pass" value="">
             <br>
             <label>Conform Password</label>
-            <input type="password"minlength="8" maxlength="10"   required>
+            <input type="password"minlength="8" maxlength="10"   required >
             <br>
             <label>Phone number</label>
-            <input >
+            <input id="phone" value="">
             </div>
             
             <br>
-            <input type="submit" value="Creat account" class="DO">
+            <input type="submit" value="Creat account" class="DO" id="create" onclick="validate();">
         </form>
-        <div class="link">
+        <div class="link" >
             <a href="./signin.html"> log in </a>
         </div>
 
     </div>
     <script src="./main.js"></script>
+    <script src="./signup.js"></script>
 
 </body>
 </html>
